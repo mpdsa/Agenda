@@ -6,10 +6,9 @@ import java.util.List;
 /** Classe Agenda. */
 public class Agenda {
   private List<String> contatos = new ArrayList<>();
-	
+
   void incluirContato(String pessoa) {
     contatos.add(pessoa);
-    
   }
   
   void excluirContato(String pessoa) {
@@ -23,5 +22,4 @@ public class Agenda {
   int tamanhoAgenda() {
     return contatos.size();
   }
-	
 }
